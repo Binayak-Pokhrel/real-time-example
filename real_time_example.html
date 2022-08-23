@@ -15,12 +15,7 @@
            font-family: Algerian;
 
        }
-        .right {
-            font-family: Algerian;
-            text-align: right;
-            padding: 10px 5px 20px 20px;
-            margin: 10px 5px 20px 20px;
-        }
+   
        
         tabel{
             display: 1px solid black;
@@ -34,9 +29,14 @@
 </head>
 
 <body>
+    <header>
     <h1>Real Time example</h1>
-
-    <div class="data">
+    </header>
+    <nav>
+        <a  href="real_time_example.html">Index Page</a>
+    </nav>
+    <section>
+    <article class="data">
         <h2><u>Data</u></h2>
         <ul type="none" class="left">
             <i>
@@ -47,20 +47,11 @@
             <li>Baneshwor</li>
             </i>
         </ul>
-
-        <ul type="none" class="right">
-            <i>
-            <li>Rajan </li>
-            <li>22</li>
-            <li>9865243153</li>
-            <li>Prasadi Academy</li>
-            <li>Lalitpur</li>
-            </i>
-        </ul>
-
+      </article>
+        <article>
         <p style=" text-align: center;">Database</p>
         <p>Table: Student</p>
-
+            <hr>
         <table>
             <tr>
                 <th>Name</th>
@@ -86,7 +77,19 @@
                 <td>Lalitpur</td>
             </tr>
         </table>
-    </div>
+    </article>
+
+       <aside>
+        <ul type="none" class="right">
+            <i>
+            <li>Rajan </li>
+            <li>22</li>
+            <li>9865243153</li>
+            <li>Prasadi Academy</li>
+            <li>Lalitpur</li>
+            </i>
+        </ul>
+        </aside>
 </body>
 
 </html>
